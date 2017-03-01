@@ -15,4 +15,7 @@ public class Demo2 {
 	public void mul(){
 		System.out.println(a*b);
 	}
+	public void div(){
+		System.out.println(a/b);
+	}
 }
