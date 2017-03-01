@@ -8,4 +8,7 @@ public class Demo2 {
 		System.out.println(a+b);
 	}
 
+	public void sub(){
+		System.out.println(a-b);
+	}
 }
