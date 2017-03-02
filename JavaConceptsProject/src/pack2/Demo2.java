@@ -18,4 +18,7 @@ public class Demo2 {
 	public void div(){
 		System.out.println(a/b);
 	}
+	public void mdiv(){
+		System.out.println(a%b);
+	}
 }
