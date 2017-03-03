@@ -1,5 +1,11 @@
 package pack2;
 
+
+/**
+ * 
+ * @author chandrika
+ *
+ */
 public class Demo2 {
 	
 	int a=100;
@@ -20,5 +26,19 @@ public class Demo2 {
 	}
 	public void mdiv(){
 		System.out.println(a%b);
+	}
+	
+	/**
+	 * @author chandrika
+	 * @description getting random number
+	 */
+	public void m(){
+		System.out.println("chandrika implemented this method...");
+		
+		//rama
+		
+		System.out.println("jjjjj");
+		
+		//end
 	}
 }
