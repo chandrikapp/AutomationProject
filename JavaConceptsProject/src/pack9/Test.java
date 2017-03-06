@@ -1,7 +1,6 @@
 package pack9;
 
 public class Test extends A{
-
 	public void m5() {
 		}
 	public void m6(){
