@@ -11,7 +11,6 @@ public class Demo1 implements I4{
 		System.out.println(x-y-z);
 		
 	}
-
 	public void m3() {
 		System.out.println(x*y*z);
 		
