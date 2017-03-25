@@ -13,6 +13,6 @@ public class Tablee {
 
 	public static void main(String[] args) {
 		Tablee t1 = new Tablee();
-		t1.table(2);
+		t1.table(50);
 	}
 }
