@@ -26,7 +26,7 @@ public class ForEachLoop {
 	
 	public static void main(String[] args) {
 		ForEachLoop f=new ForEachLoop();
-		//f.m();
+		//f.m();  
 		f.mm();
 	}
 
