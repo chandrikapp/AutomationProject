@@ -25,6 +25,10 @@ public class Demo5 {
 		case "chrome":
 			System.setProperty("webdriver.chrome.driver", "C:/Users/home/git_chandrika/JavaConceptsProject/Drivers/chromedriver.exe");
 			WebDriver chDriver=new ChromeDriver();
+			chDriver.get("http://www.google.com");
+			Thread.sleep(3000);
+			chDriver.quit();
+			System.out.println("script passed");
 			break;
 		case "ie":
 			System.setProperty("webdriver.ie.driver", "C:/Users/home/git_chandrika/JavaConceptsProject/Drivers/IEDriverServer.exe");
@@ -38,7 +42,7 @@ public class Demo5 {
 	}
 	public static void main(String[] args) throws InterruptedException {
 		Demo5 d=new Demo5();
-		d.selectBrowser("firefox");
+		d.selectBrowser("chrome");
 	}
 
 }
