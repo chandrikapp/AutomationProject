@@ -5,7 +5,7 @@ public class linkedexm {
 	
 	public void main(){
 		
- LinkedList<String> colourslist=new  LinkedList<String>();
+ List<String> colourslist=new  LinkedList<String>();
  colourslist.add("red");
  colourslist.add("blue");
  colourslist.add("green");
@@ -13,22 +13,12 @@ public class linkedexm {
  colourslist.add("null");
  for(String s:colourslist){
 	 System.out.println(s);
-	 
-	 
-	 
- }
-	}
- 
-		
-		
-	
+	 }
+	}	
 
 	public static void main(String[] args) {
 		linkedexm s = new linkedexm();
 		s.main();
-		
-		
-
 	}
 
 }
