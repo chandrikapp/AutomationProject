@@ -6,9 +6,9 @@ public class A {
 	int b;
 	
 	A(int a, int b){
-		a=a;
-		b=b;
-	}
+		this.a=a;
+		this.b=b;
+	}      
 	
 	public void add(){
 		System.out.println(a+b);
