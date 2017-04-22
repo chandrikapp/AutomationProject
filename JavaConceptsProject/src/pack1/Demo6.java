@@ -12,6 +12,7 @@ public class Demo6 {
 }
 	public static void m2(){
 		int c=55;
+		
 		Demo6 m=new Demo6();
 		System.out.println("hello "+"Age:"+m.a+c+name);
 		
