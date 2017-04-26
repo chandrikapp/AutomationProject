@@ -23,6 +23,6 @@ public class AlertHandling {
 		System.out.println(altMsg);*/
 		alt.accept();
 		System.out.println("clicked ok button");
-		driver.close();
+//		driver.close();
 	}
 }

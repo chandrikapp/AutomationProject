@@ -1,5 +1,4 @@
 package pack1;
-
 public class Demo2 {
 	
 	public void m(int a){
@@ -11,5 +10,4 @@ public class Demo2 {
 		Demo2 d=new Demo2();
 		d.m(7);
 	}
-
 }
